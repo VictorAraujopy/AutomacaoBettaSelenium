@@ -6,10 +6,9 @@ try:
     # 1. Carregar o Mapa Original
     # (Se o seu arquivo tiver outro nome, ajuste aqui)
     try:
-        df = pd.read_excel("MAPA_CONFIGURACAO_SKILLS.xlsx")
+        df = pd.read_excel(r"DataConfig/MAPA_CONFIGURACAO_SKILLS.xlsx")
     except:
-        # Fallback caso esteja salvo como CSV
-        df = pd.read_csv("MAPA_CONFIGURACAO_SKILLS.csv")
+       print("erro")
 
     print(f"Total de linhas originais: {len(df)}")
     

@@ -16,7 +16,7 @@ load_dotenv()
 user = os.getenv("USER")
 password = os.getenv("PASSWORD")
 try:
-    df_workflow = pd.read_excel("Cópia de Workflow_Profiles_11_13_v1.xlsx")
+    df_workflow = pd.read_excel(r"DataConfig/Cópia de Workflow_Profiles_11_13_v1.xlsx")
     df_data = pd.read_csv("Data - 2025-11-26T152141.453.csv")
 
 except Exception as e:
