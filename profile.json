@@ -1,0 +1,672 @@
+[{
+  "profile": {
+    "profileId": "254442939",
+    "profileName": "SERVICO_CONVENIENCIA",
+    "description": "SERVICO_CONVENIENCIA - ROTEAMENTO",
+    "isActive": "True",
+    "businessUnitId": "4608272"
+  },
+  "data": {
+    "HD_ANGELONI": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:|MSG_Emerg:"
+    },
+    "HD_ARMAZEMPB": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_AXA": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_AXA_PERNAMBUCANAS": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_AXA_RIACHUELO": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_AXA_UNIMED": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_BANESTES": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_BIG": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_BIG_REMOTO": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_C_A": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_CARREFOUR": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_CARREFOUR_ECOM": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_CARREFOUR_ECOM_EDUC": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_CARREFOUR_TT": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_CASA_VIDEO": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_CASA_VIDEO_TRANSF": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_CASAS_BAHIA": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_CNOVA": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_CNOVA_CASACONECT": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_EZZE": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_FAMILHAO": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_IMPERIO": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_ITAU": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_ITAU_CASA": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_ITAU_PERSONNALITE": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_KALUNGA": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_KALUNGA_PORTO": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_LASA": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_LUCONECTA": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_MAGAZINE_LUIZA": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_MANUTENCAO": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:PORTO_MANUTENCAO_PREDIAL"
+    },
+    "HD_MSMAIS": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_MSMAIS_REMOTO": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_NAGEM": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_PEFISA": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_PEFISA_BANCA_PREM": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_PEFISA_PROT_DIG": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_PERNAMBUCANAS": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_PERNAMBUCANAS_ORGANIZER": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_PERNAMBUNCANAS_AXA_PREM": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:|MSG_Emerg:"
+    },
+    "HD_PONTO_FRIO": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_PORTAL_PRESTADOR": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_PORTO_GERAL": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:HD_CASA_NR:600:699;HD_CASAPORTO_MI:500:599|PT:200:399|Exp:|TFH:"
+    },
+    "HD_PORTO_PLUS_PORTO_SOCORRO": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_SAC": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:HD_CASA_SAC:100:199|PT:200:399|Exp:|TFH:"
+    },
+    "HD_SAFRA_CASA": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_SAMS": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_SAMS_REMOTO": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_SANTANDER": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_SUPORTE": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_TERRA": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_TOAKI": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_TOKIO_MARINE": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_TOKIO_MARINE_AUTO": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_UNIMED": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_VIVO": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_VIVO_ASSIST": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_VIVO_ASSIST_AV": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_VIVO_FIBRA": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_VIVO_GURU": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_VIVO_GURU_PJ": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_ALBERT_EINSTEIN": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_ARVAL": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_ARVAL_PREMIUM": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:PORTO_FAZ_ARVAL_PREMIUM:200:299;PORTO_FAZ_ARVAL_PREMIUM_DAWN:200:299|PT:200:399|Exp:|TFH:"
+    },
+    "PS_BANK_MASSIFICADOS": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:PORTO_FAZ_BANK_MASSIFICADOS:700:799;PORTO_FAZ_BANK_MASSIFICADOS_DAWN:700:799|PT:200:399|Exp:|TFH:"
+    },
+    "PS_BYD": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_CARRO_FACIL": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_CARRO_FACIL_LIDERES": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:PORTO_FAZ_CARRO_FACIL_LIDERES:200:299;PORTO_FAZ_CARRO_FACIL_LIDERES_DAWN:200:299|PT:200:399|Exp:|TFH:"
+    },
+    "PS_CONDOMINIOS": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_CONECTCAR": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_FROTA": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_GUARIDA_CORRETORA": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_HARLEY_DAVIDSON": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:PORTO_FAZ_HARLEY:800:899|PT:200:399|Exp:|TFH:"
+    },
+    "PS_HONDA_CONNECTED_COLISAO": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:PORTO_FAZ_HONDA_CONNECTED_COLISAO:800:899|PT:200:399|Exp:|TFH:"
+    },
+    "PS_HONDA_GERAL": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:PORTO_FAZ_HONDA:800:899|PT:200:399|Exp:|TFH:"
+    },
+    "PS_ITAU": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_ITAU_COMBINA_AQUI": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_ITAU_PERSONNALITE": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_KOMPLETO_CARD": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_LUBRAX_PREMIA": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_MITSUI_AUTO": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_MITSUI_RE": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_PARCERIA_CARTAO": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_PARCERIAS_GERAL": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_PORSCHE": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_PRODUTOR": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_SAFRA": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_SAUDE_PME": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_TRIUMPH": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_TRIUMPH_N2": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_TRIUMPH_SAC": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_UNIDAS": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_VIDA": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_XFLEET": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_ZEEKR": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_GERAL_DIG_OUT": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_ZEEKR_SAC": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_HONDA_CONNECTED_PANE": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:PORTO_FAZ_HONDA_CONNECTED_PANE:800:899|PT:200:399|Exp:|TFH:"
+    },
+    "PS_CHUBB": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:PORTO_SERVICO_CHUBB:100:199|PT:200:399|Exp:|TFH:"
+    },
+    "PS_PICPAY": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:PORTO_SERVICO_PICPAY:100:199|PT:200:399|Exp:|TFH:"
+    },
+    "HD_LEBES": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_TICKET": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "HD_SUPORTE_SAUDE": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_ASSA_ABLOY": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:PORTO_SERVICO_ASSA_ABLOY:100:199|PT:200:399|Exp:|TFH:"
+    },
+    "HD_PLAN_ASSIS_B2C": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_TORRA": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:PORTO_SERVICO_TORRA:100:199|PT:200:399|Exp:|TFH:"
+    },
+    "PS_DUCATTI": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:PORTO_SERVICO_DUCATTI:100:199|PT:200:399|Exp:|TFH:"
+    },
+    "PS_180SEGUROS_RE": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:PORTO_SERVICO_180SEG_RE:100:199|PT:200:399|Exp:|TFH:"
+    },
+    "PS_EMG_180SEG_FUNERAL": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    },
+    "PS_EMG_180SEG_PET": {
+      "Type": "String",
+      "Visible": "1",
+      "Ref": "",
+      "Value": "PA:|PT:200:399|Exp:|TFH:"
+    }
+  }
+}
+ ] 
