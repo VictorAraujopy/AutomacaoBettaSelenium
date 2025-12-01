@@ -18,7 +18,7 @@ The solution was built to replace manual data entry, eliminating human error and
 ## 🛠️ Tech Stack
 * **Language:** Python 3.14
 * **Core Library:** Selenium WebDriver (Chrome)
-* **Data Processing:** Pandas, OpenPyXL, JSON
+* **Data Processing:** Pandas, JSON
 * **Environment Management:** Dotenv (`.env` for secure credential management)
 
 ## ⚙️ Architecture

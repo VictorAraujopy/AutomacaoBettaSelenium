@@ -4,8 +4,8 @@ import pandas as pd
 
 print("Lendo arquivos...")
 
-df_excel = pd.read_excel(r"TipoServico/Workflow_Profiles_11_13_v1.xlsx") 
-df_csv = pd.read_csv("DataID.csv")
+df_excel = pd.read_excel(r"Dados/Workflow_Profiles_11_13_v1.xlsx") 
+df_csv = pd.read_csv(r"Dados/DataID.csv")
 
 # 2. Converter as colunas de ID para string e LIMPAR SUJEIRA
 # Removemos decimais (.0) e espaços em branco para garantir que o cruzamento funcione

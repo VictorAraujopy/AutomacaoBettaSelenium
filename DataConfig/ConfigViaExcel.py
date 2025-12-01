@@ -19,9 +19,9 @@ print("--- ROBÔ CONFIGURADOR (SEQUÊNCIA CORRETA) ---")
 
 # 1. PREPARAÇÃO DOS DADOS
 try:
-    df_mapa = pd.read_excel(r"DataConfig/MAPA_CONFIGURACAO_TEXTO.xlsx")
-    df_workflow = pd.read_excel(r"DataConfig/Cópia de Workflow_Profiles_11_13_v1.xlsx")
-    df_data = pd.read_csv(r"DataConfig/Data - 2025-11-26T152141.453.csv")
+    df_mapa = pd.read_excel(r"Dados/MAPA_CONFIGURACAO_TEXTO.xlsx")
+    df_workflow = pd.read_excel(r"Dados/Cópia de Workflow_Profiles_11_13_v1.xlsx")
+    df_data = pd.read_csv(r"Dados/Data - 2025-11-26T152141.453.csv")
     
     df_workflow['skill_pri'] = df_workflow['skill_pri'].astype(str).str.replace(r'\.0$', '', regex=True).str.strip()
     df_data['skill_no'] = df_data['skill_no'].astype(str).str.replace(r'\.0$', '', regex=True).str.strip()

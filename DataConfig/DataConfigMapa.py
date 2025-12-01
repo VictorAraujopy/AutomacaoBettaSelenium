@@ -11,17 +11,17 @@ try:
     
     # Se o nome do arquivo for mesmo .csv, troque para pd.read_csv("...", encoding='latin-1', sep=';')
     # Assumindo que é um Excel real (.xlsx):
-    df_workflow = pd.read_excel(r"DataConfig/Cópia de Workflow_Profiles_11_13_v1.xlsx") 
+    df_workflow = pd.read_excel(r"Dados/Cópia de Workflow_Profiles_11_13_v1.xlsx") 
     
-    df_data = pd.read_csv(r"DataConfig/Data - 2025-11-26T152141.453.csv")
+    df_data = pd.read_csv(r"Dados/Data - 2025-11-26T152141.453.csv")
     print("Arquivos carregados com sucesso!")
     
 except Exception as e:
     # Fallback: Se der erro lendo como Excel, tenta como CSV (caso o arquivo tenha sido renomeado)
     try:
         print("Tentando ler como CSV...")
-        df_workflow = pd.read_csv("Cópia de Workflow_Profiles_11_13_v1.xlsx - Planilha1.csv")
-        df_data = pd.read_csv("Data - 2025-11-26T152141.453.csv")
+        df_workflow = pd.read_csv(r"Dados/Cópia de Workflow_Profiles_11_13_v1.xlsx - Planilha1.csv")
+        df_data = pd.read_csv(r"Dados/Data - 2025-11-26T152141.453.csv")
         print("Arquivos carregados via CSV!")
     except Exception as e2:
         print(f"ERRO CRÍTICO: Não consegui ler o arquivo. Detalhe: {e}")

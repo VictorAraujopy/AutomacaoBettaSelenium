@@ -21,7 +21,7 @@ print("--- ROBÔ ESPIÃO 4.0: BUSCA POR RÓTULO FIXO (SEGMENTO/APLICAÇÃO) ---"
 
 # 1. Carregar o Mapa
 try:
-    df = pd.read_csv(r"TipoServico/dados_prontos_para_bot_FILTRADO.csv")
+    df = pd.read_csv(r"Dados/dados_prontos_para_bot_FILTRADO.csv")
     print(f"Lendo {len(df)} serviços do arquivo.")
 except:
     print("ERRO CRÍTICO: Arquivo 'dados_prontos_para_bot.csv' não encontrado.")

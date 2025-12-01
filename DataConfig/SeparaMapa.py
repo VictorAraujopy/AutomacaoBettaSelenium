@@ -6,7 +6,7 @@ try:
     # 1. Carregar o Mapa Original
     # (Se o seu arquivo tiver outro nome, ajuste aqui)
     try:
-        df = pd.read_excel(r"DataConfig/MAPA_CONFIGURACAO_SKILLS.xlsx")
+        df = pd.read_excel(r"Dados/MAPA_CONFIGURACAO_SKILLS.xlsx")
     except:
        print("erro")
 
