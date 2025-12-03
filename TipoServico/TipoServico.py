@@ -12,10 +12,10 @@ from selenium.webdriver.support.ui import Select
 from dotenv import load_dotenv
 import os
 load_dotenv()
-
+#cadastra os tipo serviço com o arquivo-final-com-ids.xlsx gerado anteriormente
 user = os.getenv("USER")
 password = os.getenv("PASSWORD")
-# 1. CARREGAR E FILTRAR O EXCEL (Ajustado para .xlsx)
+
 os.environ['WDM_SSL_VERIFY'] = '0'
 
 print("--- Iniciando Robô de Cadastro ---")
@@ -57,13 +57,13 @@ time.sleep(1)
 
 # Navegação (Seu código original)
 wait.until(EC.element_to_be_clickable((By.ID, "LAYOUTOPTIONANDTITLE_0008"))).click()
-time.sleep(0.5)
+time.sleep(1)
 wait.until(EC.element_to_be_clickable((By.ID, "LAYOUTOPTIONANDTITLE_0001"))).click()
-time.sleep(0.5)
+time.sleep(1)
 wait.until(EC.element_to_be_clickable((By.ID, "LAYOUTOPTIONANDTITLE_0001"))).click()
-time.sleep(0.5)
+time.sleep(1)
 wait.until(EC.element_to_be_clickable((By.ID, "LAYOUTOPTIONANDTITLE_0001"))).click()
-time.sleep(2)
+time.sleep(1)
 
 # --- 3. LOOP DE CADASTRO (AQUI ENTRA A MÁGICA) ---
 for index, row in df_limpo.iterrows():
@@ -72,17 +72,20 @@ for index, row in df_limpo.iterrows():
     valor_ids    = row['valor_final']
     
     print(f"[{index+1}] Cadastrando: {nome_servico} -> {valor_ids}")
-
+    
     try:
         # Clica em INSERIR
         btn_inserir = wait.until(EC.element_to_be_clickable((By.ID, "BTNINSERIR")))
         driver.execute_script("arguments[0].click();", btn_inserir)
-        time.sleep(1)
+        time.sleep(2)
         
         # Preenche o NOME (Usando a variável do Excel)
         campo_chave = wait.until(EC.element_to_be_clickable((By.ID, "vCONFIGURACAODADOSCHAVE")))
+        time.sleep(1)
         campo_chave.clear()
+        time.sleep(1)
         campo_chave.send_keys(nome_servico)
+        time.sleep(2)
 
         # 2. SELECIONAR "TEXTO" NO DROPDOWN (A MUDANÇA É AQUI)
         try:
@@ -95,17 +98,19 @@ for index, row in df_limpo.iterrows():
             # Seleciona a opção que está escrita "Texto"
             selecao.select_by_visible_text("Texto")
             
-            time.sleep(0.5)
+            time.sleep(1)
         except Exception as e:
             print(f"⚠️ Erro ao selecionar o dropdown: {e}")
         
         # Preenche o VALOR (Usando a variável do Excel)
         # Nota: O ID do campo valor geralmente é vCONFIGURACAODADOSVALOR. Se for diferente, ajuste.
         campo_valor = driver.find_element(By.ID, "vCAMPOVALORTEXTO")
+        time.sleep(1)
         campo_valor.clear()
+        time.sleep(1)
         campo_valor.send_keys(valor_ids)    # <--- AQUI VAI O CÓDIGO
         
-        time.sleep(0.5)
+        time.sleep(1)
         
         # Salva (BTNTRN_ENTER)
         btn_salvar = driver.find_element(By.ID, "BTNENTER")

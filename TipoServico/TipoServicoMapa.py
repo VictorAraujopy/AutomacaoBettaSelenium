@@ -1,5 +1,6 @@
 import pandas as pd
-
+#cria o arquivo dados_prontos_para_bot.csv cruzando os dados do excel workflow_profiles com o dataid.csv
+#esse arquivo é usado pelo robô aspirador para pegar os nomes corretos dos datasets(DataCrossReferencing/SystemMap.py)
 
 
 print("Lendo arquivos...")

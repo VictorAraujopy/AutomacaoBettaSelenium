@@ -12,7 +12,7 @@ import os
 from dotenv import load_dotenv
 import os
 load_dotenv()
-
+#usa os dados do excel corrigido para buscar os ids no sistema atraves dos rotulos fixos
 user = os.getenv("USER")
 password = os.getenv("PASSWORD")
 os.environ['WDM_SSL_VERIFY'] = '0'
@@ -21,7 +21,7 @@ print("--- ROBÔ ESPIÃO 4.0: BUSCA POR RÓTULO FIXO (SEGMENTO/APLICAÇÃO) ---"
 
 # 1. Carregar o Mapa
 try:
-    df = pd.read_csv(r"Dados/dados_prontos_para_bot_FILTRADO.csv")
+    df = pd.read_csv(r"Dados/dados_prontos_para_bot_CORRIGIDO.csv")
     print(f"Lendo {len(df)} serviços do arquivo.")
 except:
     print("ERRO CRÍTICO: Arquivo 'dados_prontos_para_bot.csv' não encontrado.")
@@ -45,16 +45,18 @@ time.sleep(0.5)
 driver.find_element(By.ID, "vUSERPASSWORD").send_keys(password)
 wait.until(EC.element_to_be_clickable((By.ID, "BTNENTER"))).click()
 
-time.sleep(2)
-driver.execute_script("document.body.style.zoom='30%'")
+time.sleep(1)
+driver.execute_script("document.body.style.zoom='10%'")
 time.sleep(1)
 # -------------------
 
 # Entra no módulo
 wait.until(EC.element_to_be_clickable((By.ID, "LAYOUTOPTIONANDTITLE_0004"))).click()
-time.sleep(3)
+time.sleep(1)
 url_home_modulo = driver.current_url
-
+time.sleep(1)
+driver.execute_script("document.body.style.zoom='10%'")
+time.sleep(1)
 # --- FUNÇÃO QUE PEGA O VALOR DO VIZINHO ---
 def pegar_valor_do_vizinho(driver, rotulo_fixo):
     """
@@ -111,16 +113,23 @@ for index, row in df.iterrows():
 
         # 2. Navegar
         try:
+            time.sleep(1)
+            driver.execute_script("document.body.style.zoom='10%'")
+            time.sleep(1)
             # Clica no Profile
             profile_el = wait.until(EC.presence_of_element_located((By.XPATH, f"//span[contains(@class, 'AttributeHomeModulesBigTitle') and @title='{profile_alvo}']")))
             driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", profile_el)
             profile_el.click()
             time.sleep(1.5)
-            
+            time.sleep(1)
+            driver.execute_script("document.body.style.zoom='10%'")
+            time.sleep(1)
             # Clica no PRD
             wait.until(EC.presence_of_element_located((By.XPATH, "//span[contains(@class, 'AttributeHomeModulesBigTitle') and @title='PRD']"))).click()
             time.sleep(1.5)
-            
+            time.sleep(1)
+            driver.execute_script("document.body.style.zoom='10%'")
+            time.sleep(1)
             # Clica no Skill
             skill_el = wait.until(EC.presence_of_element_located((By.XPATH, f"//span[text()='{skill_busca}']")))
             driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", skill_el)
