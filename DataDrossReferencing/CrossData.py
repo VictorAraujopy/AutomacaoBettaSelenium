@@ -70,7 +70,7 @@ for index, row in df_origem.iterrows():
     })
 
 # 3. Salvar
-df_final = pd.DataFrame(novos_dados)
+df_final = pd.DataFrame(novos_dados) 
 arquivo_saida = "dados_prontos_para_bot_CORRIGIDO.csv"
 df_final.to_csv(arquivo_saida, index=False)
 

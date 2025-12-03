@@ -12,7 +12,7 @@ import os
 from dotenv import load_dotenv
 import os
 load_dotenv()
-#usa os dados do excel corrigido para buscar os ids no sistema atraves dos rotulos fixos
+#usa os dados do excel dados_prontos_para_Bot_corrigido para buscar os ids no sistema atraves dos rotulos fixos
 user = os.getenv("USER")
 password = os.getenv("PASSWORD")
 os.environ['WDM_SSL_VERIFY'] = '0'

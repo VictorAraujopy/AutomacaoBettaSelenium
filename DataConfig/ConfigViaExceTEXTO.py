@@ -11,7 +11,7 @@ import time
 from dotenv import load_dotenv
 import os
 load_dotenv()
-
+#configura os dados do sistema atraves do excel MAPA_CONFIGURACAO_TEXTO.xlsx cruzando com workflow_profiles e dataid.csv
 user = os.getenv("USER")
 password = os.getenv("PASSWORD")
 

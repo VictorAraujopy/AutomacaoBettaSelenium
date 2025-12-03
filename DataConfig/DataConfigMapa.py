@@ -1,5 +1,5 @@
 import pandas as pd
-
+# cria o arquivo MAPA_CONFIGURACAO_SKILLS.xlsx cruzando os dados do excel workflow_profiles com o dataid.csv
 print("--- BOSS FINAL: PREPARANDO O MAPA DE CONFIGURAÇÃO ---")
 
 # 1. Carregar os arquivos

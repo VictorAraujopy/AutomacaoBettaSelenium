@@ -1,5 +1,6 @@
 import pandas as pd
-
+#separa o mapa de configuração em dois arquivos: um para campos de texto e outro para campos de lista (dropdown)
+#MAPA_CONFIGURACAO_TEXTO.xlsx e MAPA_CONFIGURACAO_LISTA.xlsx
 print("--- SEPARADOR DE MAPAS (TEXTO vs LISTA) ---")
 
 try:

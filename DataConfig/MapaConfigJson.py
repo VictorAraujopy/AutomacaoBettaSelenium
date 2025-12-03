@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 import re
-
+#LE o profile.json e crio um excel MAPA_CONFIGURACAO_DATAS_JSON.xlsx com as configurações extraídas do json
 print("--- TRADUTOR DE JSON PARA EXCEL (CONFIGURAÇÃO) ---")
 
 # 1. Carregar o profile.json
